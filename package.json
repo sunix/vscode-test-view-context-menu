@@ -1,6 +1,10 @@
 {
 	"name": "vscode-test-view-context-menu",
 	"displayName": "vscode-test-view-context-menu",
+	"publisher": "sunix",
+	"repository": {
+		"url": "https://github.com/sunix/vscode-test-view-context-menu"
+	},
 	"description": "",
 	"version": "0.0.1",
 	"engines": {
@@ -56,7 +60,7 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.60.0",
+		"@types/vscode": "^1.51.1",
 		"@types/glob": "^7.1.3",
 		"@types/mocha": "^8.2.2",
 		"@types/node": "14.x",
